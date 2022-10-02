@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Aula 9 – DOM (parte 3) - prática</title>
+  </head>
+   
+
+    <body>  
+
+        
+        <div>
+            <h1 id="titulo">Cadastro Simples</h1>
+            <p id="subtitulo">Preencha o cadastro</p>
+            <br>
+        </div>
+
+        <form class="form">
+
+            <div class="grupo">
+              
+                <div class="caixa">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                    
+                </div>
+
+                <div class="caixa">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                    <span id="feedback-usuario"hidenn></span>
+                </div>
+            </div> 
+
+          
+            <div class="caixa">
+                <label for="cpf"><strong>CPF</strong></label>
+                <input type="password" name="cpf" id="cpf" required>
+                
+               
+            </div>
+
+            <button id="clique"class="botao" type="submit" onclick="cliquebotao()">Concluído</button>            
+
+        </form>
+
+    </body>
+    <script src="/js/dom-atividade-9.js"></script>
+</html>

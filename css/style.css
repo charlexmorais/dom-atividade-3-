@@ -1,0 +1,81 @@
+
+h1 {
+    text-align: left;
+}
+.form{
+    width: 259px;
+    margin-left: 7%;
+    background-color:cadetblue;
+    border: solid whitesmoke 1px;
+    box-sizing: border-box
+    
+
+}
+
+#titulo {
+  
+    color:white;
+    margin-left: 7%;
+} 
+
+#subtitulo {
+  
+    color: white;
+    margin-left: 10%;
+} 
+
+
+
+body{
+    background-color: midnightblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 6;
+    color: #59429d;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+
+input, button {
+   
+    font-size: 15px;
+    color: black;
+    border-radius: 6px;
+}
+
+
+.caixa {
+    margin-bottom: 1em;
+}
+
+.caixa label {
+    margin-bottom: 0.2em;
+    color:aliceblue;
+    display: block;
+}
+
+
+.caixa input:focus, .caixa select:focus, .caixa textarea:focus {
+    background:wheat;
+}
+
+
+.botao {
+    
+    background:orange;
+    border:solid 1px white;
+    color: #ffffff;
+    margin-left: 0%;
+    margin-top: 10%;
+    
+}
+
+.botao:hover {
+    background: black;
+    
+}
+
+.botao, select{
+    cursor: pointer;
+}
